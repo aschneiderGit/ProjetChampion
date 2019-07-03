@@ -46,7 +46,7 @@ class connectedChatScreen extends Component {
     //helper functions
     _storeMessages(messages) {
         this.setState(previousState => ({
-        messages: GiftedChat.append(previousState.messages, messages),
+            messages: GiftedChat.append(previousState.messages, messages),
         }));
     }
 }

@@ -6,18 +6,16 @@ import {
 } from 'react-navigation';
 
 import TabBarIcon from '../components/TabBarIcon';
-import HomeScreen from '../screens/HomeScreen';
-import ChatScreen from '../screens/ChatScreen';
-import SettingsScreen from '../screens/SettingsScreen';
+import ChatScreen from '../screens/Main/ChatScreen';
+import SettingsScreen from '../screens/Main/SettingsScreen';
 
-import TeacherHomeScreen from '../screens/TeacherHomeScreen/TeacherHomeScreen';
-import FormCreationScreen from '../screens/TeacherHomeScreen/FormCreationScreen';
+import TeacherHomeScreen from '../screens/Main/TeacherHomeScreen/TeacherHomeScreen';
+import FormCreationScreen from '../screens/Main/TeacherHomeScreen/FormCreationScreen';
 
-import StudentHomeScreen from '../screens/StudentHomeScreen/StudentHomeScreen';
-import FormAnsweringScreen from '../screens/StudentHomeScreen/FormAnsweringScreen';
+import StudentHomeScreen from '../screens/Main/StudentHomeScreen/StudentHomeScreen';
+import FormAnsweringScreen from '../screens/Main/StudentHomeScreen/FormAnsweringScreen';
 
 const HomeStack = createStackNavigator({
-  Home: HomeScreen,
   TeacherHomeScreen: TeacherHomeScreen,
   FormCreationScreen: FormCreationScreen,
   StudentHomeScreen: StudentHomeScreen,

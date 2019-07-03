@@ -8,7 +8,7 @@ import {
 import { connect } from "react-redux";
 import t from 'tcomb-form-native';
 
-import { Button } from '../../components/Button';
+import { Button } from '../../../components/Button';
 
 /*
   * TODO :
